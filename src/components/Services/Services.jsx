@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Resume.pdf';
+import Resume from "./Resume.pdf";
 
 const Services = () => {
   // context
@@ -25,7 +25,7 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span>Skills</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Languages"}
+            detail={"Java, JavaScript, PHP, Python, Css, MySQL, HTML"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Freamwork"}
+            detail={"Spring Boot,Spring Security, ReactJS"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"Cyber Security researcher"}
+            heading={"Familier"}
             detail={
-              "Knowledge of Linux, Bug Hunting, Information Security,Networking"
+              "Linux, Bug Hunting, Cyber Security , Docker, Google Cloud, Grafana"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
@@ -86,4 +86,4 @@ const Services = () => {
   );
 };
 
-export default Services
+export default Services;
