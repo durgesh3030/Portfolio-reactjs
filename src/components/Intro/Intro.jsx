@@ -39,14 +39,14 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-         <a href="https://github.com/durgesh3030">
-          <img src={Github} alt="" />
-        </a>
-        <a href="https://www.linkedin.com/in/durgesh3030/">
-          <img src={LinkedIn} alt="" />
-        </a>
-        <a href="https://www.instagram.com/durgeshpandey0">
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/durgesh3030">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/durgesh3030/">
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.instagram.com/durgeshpandey0">
+            <img src={Instagram} alt="" />
           </a>
         </div>
       </div>
@@ -70,7 +70,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-        <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -81,7 +81,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-        <FloatinDiv img={thumbup} text1="Cyber" text2="Security" />
+          <FloatinDiv img={thumbup} text1="Cyber" text2="Security" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

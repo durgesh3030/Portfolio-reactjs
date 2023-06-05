@@ -10,7 +10,7 @@ const Experience = () => {
         <span>Internship</span>
       </div>
       <div className="achievement">
-        <div className="circle">8+</div>
+        <div className="circle">9+</div>
         <span>Completed </span>
         <span>Projects</span>
       </div>
