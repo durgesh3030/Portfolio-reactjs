@@ -10,7 +10,7 @@ const Works = () => {
   return (
     <div className="works">
       <div className="awesome">
-        <span>Works for All these</span>
+        <span> Project Works </span>
         <span>Brands & Clients</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
